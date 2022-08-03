@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
 @font-face {
   font-family: 'matrix';
   src: url('/fonts/matrix.ttf') format("truetype");
@@ -15,19 +16,19 @@ body {
 
 h1 {
   color: #0b1e88;
-  font-family: 'matrix';
+  font-family: 'matrix', 'Kotta One', serif;
   font-size: 32px;
 }
 
 h2 {
   color : #ffffff;
-  font-family: 'matrix', sans-serif;
+  font-family: 'matrix', 'Kotta One', serif;
   font-size: 26px;
 }
 
 h3 {
   color: #62636A;
-  font-family: 'matrix', sans-serif;
+  font-family: 'matrix', 'Kotta One', serif;
   font-size: 20px;
 }
 
