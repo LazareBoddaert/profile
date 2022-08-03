@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Ubuntu:wght@700&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  color: #59617F;
+  font-family: 'Space Mono', monospace, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: normal;
+}
+
+h1 {
+  color: #4D5061;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  line-height: 1em;
+}
+
+h2 {
+  color : #96C0B7;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 26px;
+  line-height: 1em;
+}
+
+h3 {
+  color: #5C80BC;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  line-height: 1em;
+}
+
+a {
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+a:hover {
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.img-circle {
+  clip-path:ellipse(30% 50%);
+}
+
+.text-align {
+  text-align: center;
+}
+
+.card-white {
+  background-color: white;
+  border: rgb(200, 200, 200);
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .1);
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.introduction {
+  padding-bottom: 40px;
+}
+
+.introduction p {
+  margin-bottom: 40px;
+}
+
+.btn-red {
+  background-color: #EB1D36;
+  color: black;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-red:hover {
+  background-color: #e81730a9;
+  transition: 120ms ease;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 40px;
+  margin: 15px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
